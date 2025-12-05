@@ -94,7 +94,8 @@ const translations = {
             links: 'Links rápidos',
             contato: 'Contato',
             telefone: 'Telefone:',
-            email: 'E-mail:'
+            email: 'E-mail:',
+            rights: 'Todos os direitos reservados.'
         },
         toast: {
             copied: 'E-mail copiado!'
@@ -195,7 +196,8 @@ const translations = {
             links: 'Quick links',
             contato: 'Contact',
             telefone: 'Phone:',
-            email: 'E-mail:'
+            email: 'E-mail:',
+            rights: 'All rights reserved.'
         },
         toast: {
             copied: 'E-mail copied!'
