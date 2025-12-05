@@ -240,7 +240,9 @@ body {
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem 2rem;
     text-decoration: none;
     font-weight: 500;
@@ -249,6 +251,7 @@ body {
     font-size: 1rem;
     border: none;
     cursor: pointer;
+    line-height: 1.5;
 }
 
 .btn-primary {
