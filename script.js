@@ -16,9 +16,9 @@ function translatePage(lang) {
                 const hrefKey = element.getAttribute('data-i18n-href');
                 const hrefTranslation = getNestedValue(translations[lang], hrefKey);
                 if (hrefTranslation && lang === 'en') {
-                    element.href = `https://wa.me/5519995963470?text=Hello,%20I%20would%20like%20to%20request%20a%20quote`;
+                    element.href = `https://wa.me/5519989851696?text=Hello,%20I%20would%20like%20to%20request%20a%20quote`;
                 } else if (hrefTranslation && lang === 'pt') {
-                    element.href = `https://wa.me/5519995963470?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento`;
+                    element.href = `https://wa.me/5519989851696?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento`;
                 }
             } else {
                 element.textContent = translation;
@@ -37,15 +37,15 @@ function translatePage(lang) {
     whatsappLinks.forEach(link => {
         if (lang === 'en') {
             if (link.textContent.includes('Consultar') || link.textContent.includes('Check')) {
-                link.href = 'https://wa.me/5519995963470?text=Hello,%20I%20would%20like%20to%20check%20available%20vehicles';
+                link.href = 'https://wa.me/5519989851696?text=Hello,%20I%20would%20like%20to%20check%20available%20vehicles';
             } else if (link.textContent.includes('Falar') || link.textContent.includes('Talk')) {
-                link.href = 'https://wa.me/5519995963470?text=Hello,%20I%20would%20like%20to%20request%20a%20quote';
+                link.href = 'https://wa.me/5519989851696?text=Hello,%20I%20would%20like%20to%20request%20a%20quote';
             }
         } else {
             if (link.textContent.includes('Consultar') || link.textContent.includes('Check')) {
-                link.href = 'https://wa.me/5519995963470?text=Olá,%20gostaria%20de%20consultar%20os%20veículos%20disponíveis';
+                link.href = 'https://wa.me/5519989851696?text=Olá,%20gostaria%20de%20consultar%20os%20veículos%20disponíveis';
             } else if (link.textContent.includes('Falar') || link.textContent.includes('Talk')) {
-                link.href = 'https://wa.me/5519995963470?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento';
+                link.href = 'https://wa.me/5519989851696?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento';
             }
         }
     });
@@ -143,7 +143,7 @@ Serviço: ${formData.servico}
 Mensagem: ${formData.mensagem}
             `.trim();
             
-            const mailtoLink = `mailto:royalcar.contato@gmail.com?subject=Solicitação de Orçamento - ${formData.servico}&body=${encodeURIComponent(emailBody)}`;
+            const mailtoLink = `mailto:wellingtonlopes.contato@hotmail.com?subject=Solicitação de Orçamento - ${formData.servico}&body=${encodeURIComponent(emailBody)}`;
             
             window.location.href = mailtoLink;
             

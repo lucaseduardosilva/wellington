@@ -7,9 +7,9 @@
 :root {
     --color-black: #000000;
     --color-dark: #0a0a0a;
-    --color-copper: #9E5F24;
-    --color-copper-light: #B87333;
-    --color-copper-dark: #7A4A1C;
+    --color-copper: #C41E3A;
+    --color-copper-light: #E63946;
+    --color-copper-dark: #A52A2A;
     --color-white: #ffffff;
     --color-gray: #1a1a1a;
     --color-gray-light: #2a2a2a;
@@ -48,7 +48,7 @@ body {
 
 .header.scrolled {
     background-color: rgba(0, 0, 0, 0.98);
-    box-shadow: 0 2px 20px rgba(158, 95, 36, 0.1);
+    box-shadow: 0 2px 20px rgba(196, 30, 58, 0.1);
 }
 
 .nav {
@@ -92,7 +92,7 @@ body {
 
 .lang-switcher:hover {
     border-color: var(--color-copper);
-    background-color: rgba(158, 95, 36, 0.1);
+    background-color: rgba(196, 30, 58, 0.1);
 }
 
 .lang-switcher img {
@@ -189,8 +189,8 @@ body {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(circle at 20% 50%, rgba(158, 95, 36, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(158, 95, 36, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(196, 30, 58, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(196, 30, 58, 0.1) 0%, transparent 50%);
     z-index: 1;
 }
 
@@ -200,7 +200,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(158,95,36,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(196,30,58,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
     opacity: 0.5;
     z-index: 1;
 }
@@ -259,7 +259,7 @@ body {
 .btn-primary:hover {
     background-color: var(--color-copper-light);
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(158, 95, 36, 0.3);
+    box-shadow: 0 10px 25px rgba(196, 30, 58, 0.3);
 }
 
 .btn-secondary {
@@ -510,7 +510,7 @@ body {
 .servico-card:hover {
     transform: translateY(-5px);
     border-color: var(--color-copper);
-    box-shadow: 0 10px 30px rgba(158, 95, 36, 0.2);
+    box-shadow: 0 10px 30px rgba(196, 30, 58, 0.2);
 }
 
 .servico-icon {
@@ -689,7 +689,7 @@ body {
     color: var(--color-white);
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(158, 95, 36, 0.4);
+    box-shadow: 0 4px 20px rgba(196, 30, 58, 0.4);
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -745,7 +745,7 @@ body {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--color-copper);
-    box-shadow: 0 0 0 3px rgba(158, 95, 36, 0.1);
+    box-shadow: 0 0 0 3px rgba(196, 30, 58, 0.1);
 }
 
 .form-group input::placeholder,

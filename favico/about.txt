@@ -4,5 +4,3 @@ This favicon was generated using the following font:
 - Font Author: undefined
 - Font Source: https://fonts.gstatic.com/s/prata/v21/6xKhdSpbNNCT-vWIAG_5LWwJ.ttf
 - Font License: undefined)
-- Font Color: #B8860B
-- Background Color: #000
