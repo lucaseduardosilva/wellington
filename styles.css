@@ -629,16 +629,26 @@ body {
     align-items: flex-start;
 }
 
+.contato-item > div:last-child {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
 .contato-icon {
-    width: 50px;
-    height: 50px;
-    min-width: 50px;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
     color: var(--color-copper);
     background-color: var(--color-gray);
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .contato-icon svg {
@@ -648,12 +658,15 @@ body {
 
 .contato-item h4 {
     font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     color: var(--color-white);
+    line-height: 1.3;
 }
 
 .contato-item p {
     color: var(--color-gray-text);
+    line-height: 1.4;
+    margin: 0;
 }
 
 .contato-form-wrapper {
@@ -1092,9 +1105,10 @@ body {
     }
 
     .contato-icon {
-        width: 45px;
-        height: 45px;
-        min-width: 45px;
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        min-height: 60px;
     }
 
     .whatsapp-float {
